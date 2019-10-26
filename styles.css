@@ -1,0 +1,91 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+	height: 50px;
+}
+
+.clpse{
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.dashy {
+	width: 60%;
+	margin-left: 15px;
+	padding: 10px 10px 10px 10px; 
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #3a63f4;
+	color: #ffffff;
+}
+
+.desc {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	font-size: 24;
+}
+
+.dush {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.title {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+.dash-headers {
+	font-size: 32pt;
+	margin: 15px 15px 15px 15px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.dash-header {
+	font-size: 36pt;
+	margin: 15px 15px 15px 15px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 1s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}	
+}

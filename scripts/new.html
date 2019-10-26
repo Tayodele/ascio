@@ -1,0 +1,22 @@
+<div id='new-menu'>
+	<button data-toggle="collapse" class="btn btn-warning btn-lg clpse" data-target="#create">Create New</button>
+	<br/><br/>
+	<div id="create" class="collapse">
+		<button data-toggle="collapse" class="btn btn-warning btn-lg clpse" data-target="#create-dash">Create Dashboard</button>
+		<div id="create-dash" class="collapse menu">
+			<div class="clpse panel panel-primary">
+				<div class="panel-heading">Add Dashboard</div><br />
+				<form method="POST" id="create-dash-form">
+					<div class="clpse">
+						<p>Dashboard Name:</p>
+						<input type="text" name="sDashName"/>
+					</div>
+					<br/><input type="submit" onclick="Dashboard.Update(1);return false;" class="btn btn-primary btn-lg clpse" name="Create Dashboard"/>
+				</form>
+			</div>
+		</div>
+		<button data-toggle="collapse" class="btn btn-warning btn-lg clpse" data-target="#create-graph">Create Graph</button>
+		<div id="create-graph" class="collapse menu">Coming Soon!!!</div>
+	</div><br/>
+	<div>
+</div>
